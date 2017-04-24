@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 60px;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+  padding-top: 25px;
+  width: 120px;
+  height: 90px;
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+  font-size: 40px;
+}
+
+span:last-child {
+  border-right: none;
+}
+
+#row-2 span{
+  border-bottom: none;
+}
+
+#player-turn {
+  padding: 20px;
+  font-size: 30px;
+}
+
